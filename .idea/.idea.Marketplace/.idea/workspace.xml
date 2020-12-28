@@ -12,6 +12,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9D53E9D6-6E15-4B37-8450-17D420E58EC8/8/CAP.Attribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F4F0914-5411-4A47-9D76-C00412957903/228/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
@@ -49,7 +52,6 @@
       <option value="$PROJECT_DIR$/Common/Contracts/OrderBilled.cs" />
       <option value="$PROJECT_DIR$/Common/Contracts/OrderDelivered.cs" />
       <option value="$PROJECT_DIR$/Common/Contracts/OrderPlaced.cs" />
-      <option value="$PROJECT_DIR$/Common/Contracts/OrderRefunded.cs" />
       <option value="$PROJECT_DIR$/Common/Contracts/OrderShipped.cs" />
       <option value="$PROJECT_DIR$/Common/Contracts/RefundOrder.cs" />
       <option value="$PROJECT_DIR$/Common/Contracts/ShipOrder.cs" />
@@ -65,14 +67,16 @@
       <option value="$PROJECT_DIR$/Orders/Infra/OrdersContext.cs" />
       <option value="$PROJECT_DIR$/Shipments/EventHandlers/PaymentHandlers.cs" />
       <option value="$PROJECT_DIR$/Payments/EventHandlers/PaymentHandlers.cs" />
-      <option value="$PROJECT_DIR$/Orders/Orchestrator/OrderOrchestrator.cs" />
       <option value="$PROJECT_DIR$/docker-compose.yml" />
       <option value="$PROJECT_DIR$/Shipments/Startup.cs" />
       <option value="$PROJECT_DIR$/Orders/Startup.cs" />
       <option value="$PROJECT_DIR$/Payments/Startup.cs" />
+      <option value="$PROJECT_DIR$/Common/Contracts/OrderRefunded.cs" />
+      <option value="$PROJECT_DIR$/Orders/Orchestrator/OrderOrchestrator.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mHu1j5xJNz76dHMYSe5pCWFbiu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -161,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609162628362</updated>
-      <workItem from="1609162632966" duration="8127000" />
+      <workItem from="1609162632966" duration="9491000" />
     </task>
     <servers />
   </component>
@@ -170,6 +174,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -220,10 +235,10 @@
           <line>64</line>
           <properties documentPath="$PROJECT_DIR$/Orders/Orchestrator/OrderOrchestrator.cs" initialLine="62" containingFunctionPresentation="method 'ConfirmOrderOutOfStockAndAskForRefund'">
             <startOffsets>
-              <option value="2040" />
+              <option value="2053" />
             </startOffsets>
             <endOffsets>
-              <option value="2210" />
+              <option value="2237" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
@@ -233,10 +248,10 @@
           <line>70</line>
           <properties documentPath="$PROJECT_DIR$/Orders/Orchestrator/OrderOrchestrator.cs" initialLine="68" containingFunctionPresentation="method 'ConfirmOrderRefunded'">
             <startOffsets>
-              <option value="2333" />
+              <option value="2360" />
             </startOffsets>
             <endOffsets>
-              <option value="2334" />
+              <option value="2361" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
@@ -246,10 +261,10 @@
           <line>77</line>
           <properties documentPath="$PROJECT_DIR$/Orders/Orchestrator/OrderOrchestrator.cs" initialLine="75" containingFunctionPresentation="method 'ConfirmOrderShipped'">
             <startOffsets>
-              <option value="2610" />
+              <option value="2637" />
             </startOffsets>
             <endOffsets>
-              <option value="2611" />
+              <option value="2638" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
@@ -259,10 +274,10 @@
           <line>84</line>
           <properties documentPath="$PROJECT_DIR$/Orders/Orchestrator/OrderOrchestrator.cs" initialLine="82" containingFunctionPresentation="method 'ConfirmOrderDelivered'">
             <startOffsets>
-              <option value="2889" />
+              <option value="2916" />
             </startOffsets>
             <endOffsets>
-              <option value="2890" />
+              <option value="2917" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />

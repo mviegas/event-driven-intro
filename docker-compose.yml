@@ -7,3 +7,12 @@ services:
     ports:
       - 5672:5672
       - 15672:15672
+  postgres:
+    image: postgres
+    container_name: pg
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=marketplace
+    ports:
+      - 5432:5432
